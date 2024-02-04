@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Spider-Man</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body style="background-color: cornflowerblue">
+<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
+    <a class="navbar-brand" href="#">Spider-Man</a>
+    <ul class="nav nav-pills">
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading1">Who is spider-man?</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#scrollspyHeading2">What did he do?</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#scrollspyHeading3">How can he help you?</a></li>
+                <li><a class="dropdown-item" href="#scrollspyHeading4">Call him for help!</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+<div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="pics/img.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Your friendly neighbour</h5>
+                <p>Will protect you</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="pics/img_1.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Best superhero</h5>
+                <p>Will help you</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="pics/img_2.png" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Spider-Man</h5>
+                <p>Will fight for you</p>
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0">
+    <h4 id="scrollspyHeading1">Кто он?</h4>
+    <p>Человек-паук - это супергерой, который может лазить по стенам, плести паутину и обладает чутьем опасности.</p>
+    <h4 id="scrollspyHeading2">Что он делает?</h4>
+    <p>Он борется со злом в Нью-Йорке, но также участвует в приключениях с другими героями Marvel</p>
+    <h4 id="scrollspyHeading3">Почему он самый крутой?</h4>
+    <p>Человек-паук - это символ надежды, мужества и юмора.</p>
+    <h4 id="scrollspyHeading4">Он вам поможет!</h4>
+    <p>Звоните ему, и он вам поможет!</p>
+</div>
+
+<div class="card" style="width: 18rem;">
+    <img src="pics/img_4.png" class="card-img-top" alt="...">
+    <div class="card-body">
+        <h5 class="card-title">Человек паук!</h5>
+        <p class="card-text">Зарегистрируйтесь у нас на сайте и он придет вам на помощь!</p>
+        <a href="superhero-register.html" class="btn btn-primary">Зарегистрироваться</a>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
